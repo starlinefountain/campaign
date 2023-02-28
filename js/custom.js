@@ -208,10 +208,11 @@ $(function () {
 		centeredSlides: true,
 		slidesPerView: 'auto',
 		paginationClickable: true,
+		autoplayHoverPause: true,
 		loop: true,
 		autoplay: {
-			delay: 2500,
-			disableOnInteraction: false,
+			delay: 3000,
+			disableOnInteraction: true,
 		},
 		pagination: {
 			el: '.swiper-pagination',
